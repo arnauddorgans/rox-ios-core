@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.ios.vendored_frameworks = 'RoxSdk/ROXCore.framework'
-  s.tvos.vendored_frameworks = 'RoxSdk/ROXCore.framework'
+  s.ios.vendored_frameworks = 'RoxSdk/ROXCore.xcframework'
+  s.tvos.vendored_frameworks = 'RoxSdk/ROXCore.xcframework'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' }
 
