@@ -42,7 +42,7 @@ import Foundation
 
 ```
  */
-public protocol RoxContainer : class {
+public protocol RoxContainer : AnyObject {
     /**
         Override this property to override the default namespace of a class
     */

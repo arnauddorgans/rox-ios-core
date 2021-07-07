@@ -22,6 +22,6 @@ xcrun lipo -remove i386 -remove arm64 -remove armv7 ./build/iphonesimulator/ROXC
 xcrun lipo -i build/iphonesimulator/ROXCore.framework/ROXCore
 
 # Create xcframework from the platform slices
-xcodebuild -create-xcframework -framework build/iphoneos/ROXCore.framework/ -framework build/iphonesimulator/ROXCore.framework/ -output "RoxSdk/ROXCore.xcframework"
+xcodebuild -create-xcframework -framework build/iphoneos/ROXCore.framework/ -framework build/iphonesimulator/ROXCore.framework/ -output "ROXCore.xcframework"
 
 rm -rf build
